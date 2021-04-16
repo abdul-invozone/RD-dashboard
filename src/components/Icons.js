@@ -12,6 +12,7 @@ import messagesIco from "../images/icon-messages.png"
 import paymentsIco from "../images/icon-payments.png"
 import tasksIco from "../images/icon-tasks.png"
 import dashboard from "../images/gauge.png"
+import arrowDown from "../images/arrow-down.png"
 
 
 export {
@@ -28,5 +29,6 @@ export {
     messagesIco,
     paymentsIco,
     tasksIco,
-    dashboard
+    dashboard,
+    arrowDown
 };

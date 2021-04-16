@@ -23,6 +23,7 @@ module.exports = {
         'white' : '#ffffff',
         'primary-light' : '#208cd4',
         'red' : '#df4300',
+        'light-gray' : '#515974',
       },
       borderWidth: {
         '5' : '5px'
