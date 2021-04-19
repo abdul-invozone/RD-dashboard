@@ -1,11 +1,9 @@
-import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar";
+import AdminLayout from "../components/AdminLayout";
 
 const Admin = () => {
     return ( 
         <div>
-            <Navbar />
-            <Sidebar />
+            <AdminLayout />
         </div>
      );
 }

@@ -3,16 +3,6 @@ import {
   userIco,
   editIco,
   logoutIco,
-  dashboard,
-  accountsIco,
-  calenderIco,
-  directoryIco,
-  helpIco,
-  layoutsIco,
-  libraryIco,
-  messagesIco,
-  paymentsIco,
-  tasksIco,
 } from "./Icons";
 
 const Profile = () => {
@@ -32,13 +22,13 @@ const Profile = () => {
               Jenna Gorham
             </a>
             <button className="mr-4">
-              <img className="inline-block" src={userIco} alt />
+              <img className="inline-block" src={userIco} alt="icon" />
             </button>
             <button className="mr-4">
-              <img className="inline-block" src={editIco} alt />
+              <img className="inline-block" src={editIco} alt="icon" />
             </button>
             <button className="mr-4">
-              <img className="inline-block" src={logoutIco} alt />
+              <img className="inline-block" src={logoutIco} alt="icon" />
             </button>
           </div>
         </div>

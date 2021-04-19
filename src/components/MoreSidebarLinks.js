@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { arrowDown } from "./Icons";
+import { 
+    arrowDown,
+ } from "./Icons";
 
 const MoreSidebarLinks = (props) => {
   const { moreNavigation, classNames } = props;
@@ -32,6 +34,7 @@ const MoreSidebarLinks = (props) => {
                 "mr-4"
               )}
               aria-hidden="true"
+              alt="icon"
             />
 
             {item.name}
@@ -72,16 +75,18 @@ const MoreSidebarLinks = (props) => {
                   showChild
                 ? "absolute left-0"
                 : "static",
-                "mr-4"
+                "mr-4 mb-px"
               )}
               aria-hidden="true"
+              alt="icon"
             />
             <img
               src={arrowDown}
               className={classNames(
-                showChild ? "rotate-180" : "rotate-0",
+                showChild ? "rotate-180 mt-2" : "rotate-0 mt-0",
                 "absolute right-0 mr-6 transform transition duration-300 ease-in-out"
               )}
+              alt="icon"
             />
 
             {item.name}
@@ -96,16 +101,19 @@ const MoreSidebarLinks = (props) => {
               </span>
             ) : null}
             {showChild && (
-              <ul>
+              <ul className="pt-5">
                 {" "}
                 {item.children.map((subItem) => (
-                  <li
+                    
+                    <li
                     key={subItem.name}
                     href={subItem.href}
-                    className="pl-10 pr-2 py-2"
-                  >
+                    className="px-6 py-5 relative pl-10"
+                    >
+                    <img className="absolute left-0" src={subItem.icon} alt="icon"/>
                     {subItem.name}
                   </li>
+                
                 ))}{" "}
               </ul>
             )}

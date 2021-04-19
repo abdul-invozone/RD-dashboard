@@ -22,6 +22,7 @@ const MainSidebarLinks = (props) => {
               "mr-4"
             )}
             aria-hidden="true"
+            alt="icon"
           />
 
           {item.name}
