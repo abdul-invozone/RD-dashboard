@@ -13,7 +13,14 @@ import paymentsIco from "../images/icon-payments.png"
 import tasksIco from "../images/icon-tasks.png"
 import dashboard from "../images/gauge.png"
 import arrowDown from "../images/arrow-down.png"
-
+import Calendar from '../images/calendar.png';
+import message from '../images/message-square.png';
+import mail from '../images/mail.png';
+import todo from '../images/check-square.png';
+import star from '../images/star.png';
+import englishFlag from '../images/english.png';
+import Search from '../images/search.png';
+import bell from '../images/bell.png';
 
 export {
     userThumbnail,
@@ -30,5 +37,13 @@ export {
     paymentsIco,
     tasksIco,
     dashboard,
-    arrowDown
+    arrowDown,
+    Calendar,
+    message,
+    mail,
+    todo,
+    star,
+    englishFlag,
+    Search,
+    bell
 };

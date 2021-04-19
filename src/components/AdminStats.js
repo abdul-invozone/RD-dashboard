@@ -13,7 +13,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Stats() {
   return (
     <div className="bg-white rounded-xl">
       <h3 className="text-lg leading-6 font-medium text-gray-900">Last 30 days</h3>

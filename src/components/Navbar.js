@@ -1,13 +1,14 @@
-import Calendar from '../images/calendar.png';
-import message from '../images/message-square.png';
-import mail from '../images/mail.png';
-import todo from '../images/check-square.png';
-import star from '../images/star.png';
-import englishFlag from '../images/english.png';
-import Search from '../images/search.png';
-import bell from '../images/bell.png';
 import React, { useState } from 'react'
-
+import {
+  Calendar,
+  message,
+  mail,
+  todo,
+  star,
+  englishFlag,
+  Search,
+  bell
+} from "./Icons";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = React.useState(false);
   return (
