@@ -13,7 +13,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = React.useState(false);
   return (
     <>
-      <div classNameName="flex flex-wrap bg-gray-100">
+      <div classNameName="flex flex-wrap bg-gray-100 my-5">
         <div classNameName="w-full px-5 ">
           <nav className="relative flex flex-wrap items-center justify-between px-4 py-3 bg-white rounded-b-2xl">
             <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
