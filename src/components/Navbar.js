@@ -1,4 +1,3 @@
-import React from "react";
 import Calendar from '../images/calendar.png';
 import message from '../images/message-square.png';
 import mail from '../images/mail.png';
@@ -7,8 +6,9 @@ import star from '../images/star.png';
 import englishFlag from '../images/english.png';
 import Search from '../images/search.png';
 import bell from '../images/bell.png';
+import React, { useState } from 'react'
 
-export default function Menu({ fixed }) {
+const Navbar = () => {
   const [menuOpen, setMenuOpen] = React.useState(false);
   return (
     <>
@@ -104,4 +104,6 @@ export default function Menu({ fixed }) {
     </>
   
   );
-}
+};
+
+export default Navbar;

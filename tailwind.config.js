@@ -7,7 +7,7 @@ module.exports = {
         'primary' : '#1b2033',
         'secondary' : '#0c1124',
         'primary-light' : '#208cd4',
-        
+        'body-clr' : '#eaebf5',
       },
       fontSize: {
         'text-md' : '1.125rem', //18px
@@ -23,10 +23,10 @@ module.exports = {
       colors: {
         'white' : '#ffffff',
         'primary-light' : '#208cd4',
-        'red' : '#e85455',
         'orange' : '#fca64d',
         'dark-gray' : '#716f7e',
-       
+        'red' : '#df4300',
+        'light-gray' : '#515974',
       },
       borderWidth: {
         '5' : '5px'
