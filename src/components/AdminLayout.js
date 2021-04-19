@@ -21,7 +21,8 @@ import Logo from "./Logo";
 import MainSidebarLinks from "./MainSidebarLinks";
 import MoreSidebarLinks from "./MoreSidebarLinks";
 import Profile from "./Profile";
-import Navbar from './Navbar';
+import Navbar from "./Navbar";
+import AdminStats from "./AdminStats"
 
 const Sidebar = () => {
   const mainNavigation = [
@@ -70,7 +71,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       {/* This example requires Tailwind CSS v2.0+ */}
-      <div className="h-screen flex overflow-hidden bg-gray-100">
+      <div className="h-screen flex overflow-hidden bg-body-clr">
       <Transition.Root show={sidebarOpen} as={Fragment}>
         <Dialog
           as="div"
@@ -248,7 +249,10 @@ const Sidebar = () => {
             <MenuIcon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
+        <main class="flex-1 relative z-0 overflow-y-auto focus:outline-none mx-7">
         <Navbar />
+        <AdminStats />
+        </main>
       </div>
       </div>
     </div>
