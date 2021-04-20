@@ -21,6 +21,11 @@ import star from '../images/star.png';
 import englishFlag from '../images/english.png';
 import Search from '../images/search.png';
 import bell from '../images/bell.png';
+import user from '../images/icon1.png';
+import dollar from '../images/icon2.png';
+import brand from '../images/icon3.png';
+import patnership from '../images/icon4.png';
+
 
 export {
     userThumbnail,
@@ -45,5 +50,9 @@ export {
     star,
     englishFlag,
     Search,
-    bell
+    bell,
+    user,
+    dollar,
+    brand,
+    patnership
 };
