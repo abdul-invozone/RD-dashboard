@@ -1,28 +1,14 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-import {
-  MenuIcon,
-  XIcon,
-} from '@heroicons/react/outline'
-import {
-  dashboard,
-  accountsIco,
-  calenderIco,
-  directoryIco,
-  helpIco,
-  layoutsIco,
-  libraryIco,
-  messagesIco,
-  paymentsIco,
-  tasksIco,
-  arrowDown,
-} from "./Icons";
 import Logo from "./Logo";
 import MainSidebarLinks from "./MainSidebarLinks";
 import MoreSidebarLinks from "./MoreSidebarLinks";
 import Profile from "./Profile";
 import Navbar from "./Navbar";
+import RdTable from "./RdTable";
 import AdminStats from "./AdminStats"
+import { MenuIcon , XIcon } from '@heroicons/react/outline'
+import { dashboard, accountsIco, calenderIco, directoryIco, helpIco, layoutsIco, libraryIco, messagesIco, paymentsIco, tasksIco, arrowDown } from "./Icons";
 
 const Sidebar = () => {
   const mainNavigation = [
@@ -252,6 +238,7 @@ const Sidebar = () => {
         <main class="flex-1 relative z-0 overflow-y-auto focus:outline-none mx-7">
         <Navbar />
         <AdminStats />
+        <RdTable />
         </main>
       </div>
       </div>
